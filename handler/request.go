@@ -18,6 +18,9 @@ type CreateOpeningRequest struct {
 }
 
 func (r *CreateOpeningRequest) Validate() error {
+	if r == nil {
+		return fmt.Errorf("invalid request body")
+	}
 	if r.Role == "" {
 		return errParamIsRequired("role", "string")
 	}
