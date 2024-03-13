@@ -1,0 +1,439 @@
+repo_name: LuhanM/gopportunities
+report_id: 040bb9b49c7b33b3e5d5d1d88f46055c
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-13T14:17:30+00:00'
+requested_by: LuhanM
+provider: github
+branch: main
+detected_tools_count: 30
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/LuhanM/gopportunities
+  detection_source: Repo Metadata
+- name: Gin Gonic
+  description: HTTP web framework written in Go
+  website_url: https://gin-gonic.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/4221/7894478.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LuhanM/gopportunities
+  detection_source: Repo Metadata
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: root
+  last_updated_on: 2023-04-25 23:07:38.000000000 Z
+- name: codec
+  description: Idiomatic codec and rpc lib for msgpack, cbor, json, etc
+  package_url: https://pkg.go.dev/github.com/ugorji/go/codec
+  version: 1.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: gin
+  description: Gin is a HTTP web framework written in Go
+  package_url: https://pkg.go.dev/github.com/gin-gonic/gin
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: gin-swagger
+  description: Gin middleware to automatically generate RESTful API documentation
+    with Swagger 2.0
+  package_url: https://pkg.go.dev/github.com/swaggo/gin-swagger
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  version: 1.14.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: inflection
+  description: Pluralizes and singularizes English nouns
+  package_url: https://pkg.go.dev/github.com/jinzhu/inflection
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: jsonpointer
+  description: Fork of gojsonpointer with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonpointer
+  version: 0.19.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: jsonreference
+  description: Fork of gojsonreference with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonreference
+  version: 0.19.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: locales
+  description: ":earth_americas: a set of locales generated from the CLDR Project
+    which can be used independently or within an i18n package; these were built for
+    use with"
+  package_url: https://pkg.go.dev/github.com/go-playground/locales
+  version: 0.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: now
+  description: Now is a time toolkit for golang
+  package_url: https://pkg.go.dev/github.com/jinzhu/now
+  version: 1.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: purell
+  description: Tiny Go library to normalize URLs
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/purell
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: spec
+  description: Openapi specification object model
+  package_url: https://pkg.go.dev/github.com/go-openapi/spec
+  version: 0.20.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: swag
+  description: Goodie bag in use in the go-openapi projects
+  package_url: https://pkg.go.dev/github.com/go-openapi/swag
+  version: 0.19.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: swaggo/swag
+  description: Automatically generate RESTful API documentation with Swagger 2.0 for
+    Go
+  package_url: https://pkg.go.dev/github.com/swaggo/swag
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: universal-translator
+  description: ":speech_balloon: i18n Translator for Go/Golang using CLDR data + pluralization
+    rules"
+  package_url: https://pkg.go.dev/github.com/go-playground/universal-translator
+  version: 0.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Luhan Meireles da Silva
+  last_updated_on: 2023-04-07 11:36:18.000000000 Z
+- name: urlesc
+  description: Proper URL escaping as per RFC3986
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/urlesc
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.2.2
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/LuhanM/gopportunities/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: root
+  last_updated_on: 2023-04-25 21:34:17.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
